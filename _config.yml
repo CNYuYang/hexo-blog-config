@@ -103,4 +103,4 @@ theme: next-reloaded
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/CNYuYang/hexo-blog
+  repo: git@github.com:CNYuYang/hexo-blog.git
