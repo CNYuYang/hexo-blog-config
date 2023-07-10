@@ -43,7 +43,7 @@ cp zoo_sample.cfg zoo.cfg
 
 编辑`server.properties`文件，能够被内网访问：
 
-```
+```properties
 listeners=PLAINTEXT://192.168.3.14:9092
 ```
 

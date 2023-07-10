@@ -104,3 +104,4 @@ theme: next-reloaded
 deploy:
   type: git
   repo: git@github.com:CNYuYang/hexo-blog.git
+  branch: master

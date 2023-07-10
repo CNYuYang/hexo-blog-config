@@ -22,15 +22,7 @@ for i in stdout.readlines():
 for i in stderr.readlines():
 	print(i)
 
-stdin, stdout, stderr = s.exec_command('cd /volume1/git/hexo-blog-config && hexo g')
-
-for i in stdout.readlines():
-	print(i)
-
-for i in stderr.readlines():
-	print(i)
-
-stdin, stdout, stderr = s.exec_command('cd /volume1/git/hexo-blog-config && hexo d')
+stdin, stdout, stderr = s.exec_command('cd /volume1/git/hexo-blog && git pull')
 
 for i in stdout.readlines():
 	print(i)
